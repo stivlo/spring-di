@@ -1,4 +1,5 @@
-= Spring Dependency Injection beyond the basic tutorials =
+Spring Dependency Injection beyond the basic tutorials
+======================================================
 
 Example of use of the @Configurable annotation to be able to inject objects created outside of
 the control of any container. Domain objects often fall into this category because they are
