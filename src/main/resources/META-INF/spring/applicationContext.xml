@@ -17,6 +17,7 @@
         http://www.springframework.org/schema/jee/spring-jee-3.0.xsd         
         http://www.springframework.org/schema/tx         
         http://www.springframework.org/schema/tx/spring-tx-3.0.xsd">
+        
     <!--
         This will automatically locate any and all property files you have
         within your classpath, provided they fall under the META-INF/spring
@@ -79,6 +80,7 @@
         <property name="numTestsPerEvictionRun" value="3"/>
         <property name="minEvictableIdleTimeMillis" value="1800000"/>
     </bean>
+    
     <bean class="org.springframework.orm.jpa.JpaTransactionManager" id="transactionManager">
         <property name="entityManagerFactory" ref="entityManagerFactory"/>
     </bean>
