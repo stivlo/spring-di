@@ -33,7 +33,7 @@ which one to use with XML.
 
 The main program will log the following:
 
- Id: 1, Name: 'Benjamin Kirk', Cache: org.obliquid.springdi.cache.NullCache@33788d
- Id: 1067, Name: 'Eloise Berry', Cache: org.obliquid.springdi.cache.NullCache@33788d
+    Id: 1, Name: 'Benjamin Kirk', Cache: org.obliquid.springdi.cache.NullCache@33788d
+    Id: 1067, Name: 'Eloise Berry', Cache: org.obliquid.springdi.cache.NullCache@33788d
 
 
